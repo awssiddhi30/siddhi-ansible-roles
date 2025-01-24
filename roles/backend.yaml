@@ -1,3 +1,5 @@
 - name: cofiguration backend
   hosts: backend
   become: yes
+  roles:
+  - backend
